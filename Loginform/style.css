@@ -1,0 +1,52 @@
+body{
+    background: url("./ai-generated-8750163_1920.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: inset -5px -5px rgba(0,0,0,0.3);
+    border-radius: 30px;
+}
+.form h1{
+    color: white;
+    font-size: 2.5rem;
+    margin: 60px;
+}
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: inset -3px -3px rgba(0,0,0,0.3);
+    color: black;
+    font-size: 1rem;
+}
+#submit{
+    padding: 20px 20px;
+    margin-block-start: 50px;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset -3px -3px rgba(0,0,0,0.3);
+    font-size: 1rem;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
